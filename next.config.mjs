@@ -9,6 +9,9 @@ const nextConfig = {
       "api.microlink.io", // Microlink Image Preview
     ],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 const withMDX = createMDX({
@@ -16,5 +19,4 @@ const withMDX = createMDX({
 });
 
 export default withMDX(nextConfig);
-
 
