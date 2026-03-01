@@ -42,8 +42,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# large assets (keep locally, not versioned)
-/public/img/photos/
-/public/img/projects/
-/public/pdf/projects/
-/public/pdf/cv.pdf
+# large assets
+# 如果使用 Git LFS 管理图片/PDF，则无需在此忽略它们

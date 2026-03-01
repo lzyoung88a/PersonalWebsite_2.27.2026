@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
     links: {
       'HCII 2025': 'https://2025.hci.international/',
       video: 'https://youtu.be/Jo_5ap1tqqE',
-      paper: 'https://doi.org/10.48550/arXiv.2506.02700',
+      paper: 'https://doi.org/10.1007/978-3-032-12773-0_24',
     },
     id: 'liu2026doki',
     description:
