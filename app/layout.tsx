@@ -6,6 +6,7 @@ import { Footer } from './footer'
 import { ThemeProvider } from 'next-themes'
 import { ThemeColor } from './theme-color'
 import { PERSONAL_INFO, SITE_URL } from './data'
+import { Analytics } from '@vercel/analytics/next'
 
 export const viewport: Viewport = {
   width: 'device-width',
@@ -65,6 +66,7 @@ export default function RootLayout({
             </div>
           </div>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   )
