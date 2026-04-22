@@ -125,7 +125,7 @@ export default function Personal() {
             Here is my{' '}
             <a
               className="text-foreground underline"
-              href="https://drive.google.com/file/d/1Y_QAyo-mSxwVxLbLrPuTcPOaL1rBeNTW/view?usp=sharing"
+              href="/pdf/Zhengyang_li_CV_4.22.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
